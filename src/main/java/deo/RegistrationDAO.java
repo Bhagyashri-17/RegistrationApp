@@ -63,7 +63,7 @@ public class RegistrationDAO {
         }
     }
 
-    // Delete Operation
+   
     public void deleteRegistration(int id) {
         String sql = "DELETE FROM Registration WHERE ID = ?";
         try (Connection conn = DatabaseConnection.getConnection();
